@@ -6,3 +6,18 @@ Histograms- Visualize the distribution of a numerical variable, illustrate the d
 
 **See below example.**
 
+import matplotlib.pyplot as plt
+
+import numpy as np
+
+data = np.random.randn(1000)### use your dataset
+
+plt.hist(data, bins=20, color='green', edgecolor='black')
+
+plt.title('Histogram Example')
+
+plt.xlabel('Value')
+
+plt.ylabel('Frequency')
+
+plt.show()

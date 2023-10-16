@@ -34,6 +34,7 @@ plt.show()
 
 **Below is an example. **
 
+```python
 import matplotlib.pyplot as plt
 
 import numpy as np
@@ -49,7 +50,7 @@ figure = plt.figure(figsize =(10, 8))
 plt.boxplot(dataSet)
 
 plt.show()
-
+```
 
 
 
@@ -58,6 +59,7 @@ plt.show()
 ** Bar charts- ** Bar charts are an excellent way for comparing categorical data. enabling you to easily identify which categories are most prevalent and identify trends or animalities.
 **Below is an example.**
 
+```python
 import matplotlib.pyplot as plt
 
 categories = [' A', 'B', ' C',' D']
@@ -73,13 +75,14 @@ plt.xlabel('Category')
 plt.ylabel('Value')
 
 plt.show()
-
+```
 
 
 **Scatter Plots:**
 Visualize the relationship between two numerical variables.
 **Below is an example.**
 
+```python
 import matplotlib.pyplot as plt
 
 import numpy as np
@@ -97,11 +100,13 @@ plt.xlabel("X variable") ###the x variable
 plt.ylabel("Y variable") ##y-axis label
 
 plt.show()
+```
 
 **Line and making each point with a circle.**
 
 **See example below.**
 
+```python
 import matplotlib.pyplot as plt
 
 import numpy as np
@@ -113,7 +118,7 @@ ypoints = np.array([3, 8, 1, 10])
 plt.plot(ypoints, marker = 'o')
 
 plt.show()
-
+```
 
 **Summary**
 

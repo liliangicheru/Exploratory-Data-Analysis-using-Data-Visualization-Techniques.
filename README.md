@@ -8,6 +8,7 @@ Exploratory Data Analysis (EDA) is a key step in the data analysis process. Data
 
 **See below example.**
 
+```python
 import matplotlib.pyplot as plt
 
 import numpy as np
@@ -23,6 +24,7 @@ plt.xlabel('Value')
 plt.ylabel('Frequency')
 
 plt.show()
+```
 
 **Box Plots-**  This technique Show the summary statistics of a numerical variable, including the median, quartiles, and outlier, allowing you to grasp data variability from a glance.
 
